@@ -3,7 +3,7 @@
 }
 .body {
     position: relative;
-    /* width: 800px; */
+    width: auto;
     margin: 0 auto;
     /* border: 2px solid red; */
     display: grid;
@@ -32,12 +32,9 @@
        grid-area: head;
        align-items: right;
        justify-items: right;
-       /* margin-left: 150px;
-       margin-top: 40px; */
        margin-bottom: 0;
      }
   .header2 { 
-        /* width: 800px; */
        grid-area: head2;
        /* border: 2px solid blue; */
        background-color: rgb(230, 225, 225);
@@ -112,18 +109,12 @@
         background-color: rgb(39, 37, 37);
     }
 
-  /* Header
-  Ads!
-  Main Content
-  Sidebar
-   */
+  
    .header1>img {
       margin-left:250px ;
       margin-top: 160px;
       border-radius: 50%;
-      /* position: absolute; */
-     
-     
+
    }
    .header2>p {
        text-align: center;
@@ -135,17 +126,17 @@
 
    .image1>img {
     border-radius: 50%;
-    width: 70%
+    width: 70%;
     
    }
    .image2>img {
     border-radius: 50%;
-    width: 70%
+    width: 70%;
     
    }
    .image3>img {
     border-radius: 50%;
-    width: 70%
+    width: 70%;
     
    }
    hr{
@@ -200,7 +191,7 @@
       margin-left: 20px;
   }  
   @media  screen 
-    and (min-width: 610px) 
+    and (min-width: 300px) 
     and (max-width: 700px) {
         .body {
             display: grid;
@@ -233,9 +224,6 @@
              grid-area: head;
              align-items: right;
              justify-items: right;
-             /* margin-left: 150px;
-             margin-top: 40px; */
-             /* width: 98vw; */
              margin-bottom: 0;
            }
            .header1>img {
@@ -247,7 +235,6 @@
            
          }
          .header2 { 
-            /* width: 800px; */
            grid-area: head2;
            /* border: 2px solid blue; */
            background-color: rgb(230, 225, 225);
@@ -274,7 +261,6 @@
             font-family:  "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
             align-self: center;
             justify-self: center;
-            /* line-height: 1.6; */
             font-size: 20px;
             width: 200px;
             line-height: 25px;
@@ -298,6 +284,7 @@
            justify-self: center;
            line-height: 25px;
            font-size: 20px;
+           margin-bottom: 100px;
           }
        .image3 {  
            grid-area: image3;
@@ -312,11 +299,12 @@
            justify-self: center;
            line-height: 1.6;
            font-size: 20px;
+           margin-bottom: 10px;
           }
        .foot1 {  
              grid-area: foot1;
              background-color: rgb(39, 37, 37);
-            
+             padding-bottom: 10px;
         
          }
          a {
@@ -332,10 +320,8 @@
          .foot2 {
              grid-area: foot2;
              background-color: rgb(39, 37, 37);
-            position: left;
-            align-self: left;
-            justify-self: left;
-            width: 410px;
+             padding-bottom: 10px;
+           
          }
          .header1>img {
             margin-left:50px ;
@@ -376,31 +362,28 @@
       
          input {
               display: block;
-              width: 229px;
+              width: 194px;
               margin-top: 20px;
-              margin-left: 150px;
+              margin-left: 1px;
               
               background-color: rgb(53, 51, 51);
               border-color: black;
          }
         textarea {
           display: block;
-          width: 229px;
+          width: 194px;
           margin-top: 20px;
-          margin-left: 150px;
           position: left;
           background-color: rgb(53, 51, 51);
           border-color: black;
           color: white;
-         align-self: auto;
-         justify-self: auto;
-          
+          margin-left: 1px;
         }
         legend {
             color: white;
             position: left;
             font-size: 30px;
-            margin-left: 150px;
+            margin-left: 1px;
         }
         li>img{
             width: 50px;
@@ -414,14 +397,14 @@
           color: white;
           font-size: 20px;
           position: left;
-          margin-left: 150px;
+          margin-left: 1px;
       
         } 
         :-ms-input-placeholder {
             font-size: 20px;
         } 
         .copyright {
-            font-size: 20px;
+            font-size: 15px;
             color: white;
           
         }  
