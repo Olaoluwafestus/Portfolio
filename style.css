@@ -91,7 +91,7 @@
      }
   .foot1 {  
         grid-area: foot1;
-        background-color: rgb(39, 37, 37);
+        background-color: black;
        
     }
     a {
@@ -106,7 +106,7 @@
     }
     .foot2 {
         grid-area: foot2;
-        background-color: rgb(39, 37, 37);
+        background-color: black;
     }
 
   
@@ -150,15 +150,17 @@
         margin-top: 20px;
         margin-left: 350px;
         position: right;
-        background-color: black;
+        background-color: rgb(8, 8, 8);
         border-color: black;
+        height: 20px;
+        width: 229px;
    }
   textarea {
     display: block;
     width: 229px;
     margin-top: 20px;
     margin-left: 350px;
-    background-color: black;
+    background-color: rgb(8, 8, 8);
     border-color: black;
     color: white;
    
@@ -219,7 +221,7 @@
         }
         .header1 { 
             position: absolute;
-            width: 500px;
+            width: auto;
             /* border: 2px solid black; */
              grid-area: head;
              align-items: right;
@@ -227,10 +229,10 @@
              margin-bottom: 0;
            }
            .header1>img {
-            margin: auto;
             border-radius: 50%;
-            position: absolute;
-            width: 400px;
+            /* position: relative; */
+            margin-left: 10px;
+            width: 300px;
            
            
          }
@@ -305,6 +307,7 @@
              grid-area: foot1;
              background-color: rgb(39, 37, 37);
              padding-bottom: 10px;
+             padding-left: 50px;
         
          }
          a {
@@ -321,7 +324,7 @@
              grid-area: foot2;
              background-color: rgb(39, 37, 37);
              padding-bottom: 10px;
-           
+             padding-left: 50px;
          }
          .header1>img {
             margin-left:50px ;
@@ -364,7 +367,7 @@
               display: block;
               width: 194px;
               margin-top: 20px;
-              margin-left: 1px;
+              margin-left: -50px;
               
               background-color: rgb(53, 51, 51);
               border-color: black;
@@ -377,13 +380,13 @@
           background-color: rgb(53, 51, 51);
           border-color: black;
           color: white;
-          margin-left: 1px;
+          margin-left: -50px;
         }
         legend {
             color: white;
             position: left;
             font-size: 30px;
-            margin-left: 1px;
+            margin-left: -50px;
         }
         li>img{
             width: 50px;
