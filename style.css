@@ -139,6 +139,13 @@
     width: 70%;
     
    }
+   .text3 a {
+       text-decoration-color: blue;
+       color: blue;
+       font-family:  "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+       line-height: 1.6;
+       font-size: 20px;
+   }
    hr{
        width: 800px;
        position: inline-block;
