@@ -203,43 +203,30 @@
     and (min-width: 300px) 
     and (max-width: 700px) {
         .body {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            grid-template-areas: 
-             'head head head'
-             'head head head'
-             'head head head'
-             'head2 head2 head2'
-             'head3 head3 head3'
-             'image1 text1 tex1'
-             'image1 text1 tex1'
-             'image1 text1 tex1'
-             'image1 text1 tex1'
-             'image2 text2 text2'
-             'image2 text2 text2'
-             'image2 text2 text2'
-             'image2 text2 text2'
-             'image3 text3 text3'
-             'foot1 foot2 foot2'
-             'foot1 foot2 foot2'
-             'foot1 foot2 foot2';
-             
-             
-        }
+            display: flex;
+            flex-direction: column;
+                 }
         .header1 { 
-            position: absolute;
+            /* position: absolute; */
             width: auto;
-            /* border: 2px solid black; */
-             grid-area: head;
-             align-items: right;
-             justify-items: right;
-             margin-bottom: 0;
+            flex: auto;
+            border: 2px solid black;
+            justify-content: center;
+            align-items: center;
+
            }
            .header1>img {
             border-radius: 50%;
             /* position: relative; */
-            margin-left: 10px;
-            width: 300px;
+            width: 40vw;
+            height: 40vh;
+          flex: auto;
+          justify-content: center;
+          align-items: center;
+
+          
+         
+         
            
            
          }
@@ -250,23 +237,24 @@
            margin-right: 0px;
            margin-left: 0px;
            z-index: 100;
-           width: 580px;
+          flex: auto;
          }
          .header2>p {
             text-align: center;
             font-family: 'Courier New', Courier, monospace;
             font-size: 10px;
+            flex: auto;
            
             
         }
          .header3 {
-            grid-area: head3;
+            flex: auto;
             align-self: center;
             justify-self: center;
             font-size: 30px;
         }
         .text1 {  
-            grid-area: text1; 
+            flex: auto;
             font-family:  "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
             align-self: center;
             justify-self: center;
@@ -276,18 +264,18 @@
 
         }
         .image1 {
-            grid-area: image1;
+            flex: auto;
             margin: auto;
             width: 80%;
           }
        .image2 {  
-           grid-area: image2;
+           flex: auto;
            margin: auto;
            width: 80%;
            border-bottom: 50px;
          }
        .text2 {  
-           grid-area: text2;
+           flex: auto;
            font-family:  "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
            align-self: center;
            justify-self: center;
@@ -296,13 +284,13 @@
            margin-bottom: 100px;
           }
        .image3 {  
-           grid-area: image3;
+          flex: auto;
            margin: auto;
            width: 80%;
            border-bottom: 50px;
           }
        .text3 { 
-            grid-area: text3;
+           flex: auto;
             font-family:  "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
            align-self: center;
            justify-self: center;
@@ -311,7 +299,7 @@
            margin-bottom: 10px;
           }
        .foot1 {  
-             grid-area: foot1;
+             flex: auto;
              background-color: rgb(39, 37, 37);
              padding-bottom: 10px;
              padding-left: 50px;
