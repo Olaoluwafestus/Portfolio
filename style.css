@@ -236,6 +236,7 @@
 
            }
            .header1>img {
+               width: 100%;
             /* border: 2px solid black; */
             border-radius: 50%;
             /* position: relative; */
